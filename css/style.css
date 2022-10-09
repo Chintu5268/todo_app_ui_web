@@ -32,10 +32,17 @@ h1 {
   float: left;
   margin-top: 10px;
 }
-#myBtn{width: auto;
+
+#myBtn {
+  width: auto;
   border: none;
-background-color: #f7f7f7;}
-#myBtn:hover{background-color:#fff;}
+  background-color: #f7f7f7;
+}
+
+#myBtn:hover {
+  background-color: #fff;
+}
+
 .font p {
   display: inline-block;
   font-family: sans-serif;
@@ -116,7 +123,7 @@ background-color: #f7f7f7;}
 }
 
 .box21 {
-  
+
   position: absolute;
   top: 343px;
   left: 540px;
@@ -193,6 +200,7 @@ background-color: #f7f7f7;}
   width: 25px;
   height: 25px;
 }
+
 .box41 {
   position: absolute;
   top: 725px;
@@ -204,6 +212,7 @@ background-color: #f7f7f7;}
   top: 760px;
   left: 178px;
 }
+
 .box5 {
   top: 220px;
   left: 139px;
@@ -232,6 +241,7 @@ background-color: #f7f7f7;}
   height: 25px;
   color: #C2C2C2;
 }
+
 .box51 {
 
   position: absolute;
@@ -244,6 +254,7 @@ background-color: #f7f7f7;}
   top: 760px;
   left: 540px;
 }
+
 /* third page css */
 .box61 {
   top: 220px;
@@ -338,4 +349,47 @@ background-color: #f7f7f7;}
 
 .box32 {
   margin-left: 45px;
+}
+
+/* boxmodel */
+.content {
+  width: 30%;
+  height: 200px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 48%;
+  left: 36%;
+  float: left;
+  border-radius: 5px;
+  background-color: rgb(202, 25, 25);
+  display:none;
+  z-index: 1;
+}
+.content p {
+  font-size: 20px;
+  margin: 15px 5px;
+
+}
+
+#icon1 {
+  float: right;
+  margin: -40px 25px;
+  font-size: 22px;
+}
+
+.content input {
+  width: 92%;
+  height: 25px;
+  border-radius: 5px;
+  margin: 18px 5px;
+}
+
+#btn1 {
+  background-color: #00A5EC;
+  width: 28%;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  float: right;
+  margin: 10px 23px;
 }

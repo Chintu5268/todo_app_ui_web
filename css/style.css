@@ -1,6 +1,7 @@
 .container {
   width: 93%;
   background-color: #f7f7f7;
+  opacity: 0.7;
   font-family: sans-serif;
   height: 1200px;
   margin: 0 auto;
@@ -59,13 +60,14 @@ h1 {
 .box1 {
   width: 362px;
   height: 360px;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-left: 70px;
   margin-top: 20px;
   border-radius: 15px;
   background-color: #fff;
   box-sizing: border-box;
-  z-index: 2;
+
+
 
 }
 
@@ -89,16 +91,23 @@ h1 {
 .box11 {
   margin-top: 50px;
   margin-left: 45px;
+  font-weight: lighter;
+
 }
 
 .box12 {
+  margin-top: 10px;
   margin-left: 45px;
+  font-weight:600;
+
+
+
 }
 
 .box2 {
   width: 362px;
   height: 360px;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 20px;
@@ -126,13 +135,18 @@ h1 {
 .box21 {
   margin-top: 30px;
   margin-left: 25px;
+  font-weight: lighter;
+  margin-right: 20px;
 
 }
-
+.box21 input{
+}
 .box22 {
   
   margin-top: -42px;
   margin-left: 25px;
+  font-weight:600;
+
 }
 
 .box3 {
@@ -140,7 +154,7 @@ h1 {
   left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-top: 20px;
   border-radius: 15px;
   background-color: #fff;
@@ -166,12 +180,16 @@ h1 {
   
   margin-top: 30px;
   margin-left: 25px;
+  font-weight: lighter;
+
 }
 
 .box32 {
   
   margin-top: -42px;
   margin-left: 25px;
+  font-weight:600;
+
 }
 
 .box4 {
@@ -179,7 +197,7 @@ h1 {
   left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-left: 70px;
   margin-top: 20px;
   border-radius: 15px;
@@ -206,12 +224,16 @@ h1 {
   
   margin-top: 30px;
   margin-left: 25px;
+  font-weight: lighter;
+
 }
 
 .box42 {
   
   margin-top: -42px;
   margin-left: 25px;
+  font-weight:600;
+
 }
 
 .box5 {
@@ -219,7 +241,7 @@ h1 {
   left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 20px;
@@ -247,12 +269,16 @@ h1 {
 .box51 {
   margin-top: 30px;
   margin-left: 25px;
+  font-weight: lighter;
+
 }
 
 .box52 {
 
   margin-top: -42px;
   margin-left: 25px;
+  font-weight:600;
+
 }
 
 /* third page css */
@@ -324,7 +350,9 @@ h1 {
   clear: left;
 }
 
-
+.box61{
+  box-shadow:inset -10px -10px #fff;
+}
 .box61 p {
   font-size: 25px;
   margin: 30px 30px;
@@ -352,7 +380,6 @@ h1 {
 .content {
   width: 30%;
   height: 200px;
-  /* border: 1px solid black; */
   position: absolute;
   top: 48%;
   left: 36%;
@@ -360,7 +387,8 @@ h1 {
   border-radius: 5px;
   background-color: #f1e9e9;
   display:none;
-  z-index: 1;
+  z-index: 2;
+
 }
 .content p {
   font-size: 20px;

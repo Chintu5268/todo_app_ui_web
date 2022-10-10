@@ -2,7 +2,7 @@
   width: 95%;
   background-color: #f7f7f7;
   font-family: sans-serif;
-  height: 2000px;
+  height: 1100px;
   margin: 0 auto;
 
 }
@@ -361,7 +361,7 @@ h1 {
   left: 36%;
   float: left;
   border-radius: 5px;
-  background-color: rgb(202, 25, 25);
+  background-color: #f1e9e9;
   display:none;
   z-index: 1;
 }
@@ -387,9 +387,11 @@ h1 {
 #btn1 {
   background-color: #00A5EC;
   width: 28%;
-  padding: 10px;
+  padding: 13px;
   color: #fff;
   border-radius: 5px;
   float: right;
   margin: 10px 23px;
+  border: none;
+  font-size: 15px;
 }

@@ -2,7 +2,7 @@
   width: 95%;
   background-color: #f7f7f7;
   font-family: sans-serif;
-  height: 1100px;
+  height: auto;
   margin: 0 auto;
 
 }
@@ -11,8 +11,7 @@
   background-color: #fff;
   height: 54px;
   padding: 13px 0 12px 137px;
-  border: 1px solid rgba(0, 165, 236, 1);
-  ;
+  
 }
 
 h1 {
@@ -20,7 +19,7 @@ h1 {
 }
 
 .font {
-  margin-left: 1010px;
+  margin-left: 975px;
   height: 75px;
   margin-top: 40px;
 
@@ -37,6 +36,7 @@ h1 {
   width: auto;
   border: none;
   background-color: #f7f7f7;
+  margin-right: 25px;
 }
 
 #myBtn:hover {
@@ -51,15 +51,15 @@ h1 {
   padding-left: 10px;
   clear: left;
 }
-
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
 .box1 {
-  top: 220px;
-  left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 1;
-  /* border: 1px solid #00A5EC; */
-  float: left;
+  opacity: 0.7;
   margin-left: 100px;
   margin-top: 20px;
   border-radius: 15px;
@@ -82,6 +82,7 @@ h1 {
 
 .box1:hover {
   background-color: #ffffff;
+  opacity: 1;
 }
 
 .box11 {
@@ -94,13 +95,9 @@ h1 {
 }
 
 .box2 {
-  top: 220px;
-  left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 1;
-  /* border: 1px solid #00A5EC; */
-  float: left;
+  opacity: 0.7;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 20px;
@@ -121,19 +118,20 @@ h1 {
   width: 25px;
   height: 25px;
 }
-
+.box2:hover {
+  background-color: #ffffff;
+  opacity: 1;
+}
 .box21 {
-
-  position: absolute;
-  top: 343px;
-  left: 540px;
+  margin-top: 30px;
+  margin-left: 25px;
 
 }
 
 .box22 {
-  position: absolute;
-  top: 375px;
-  left: 540px;
+  
+  margin-top: -42px;
+  margin-left: 25px;
 }
 
 .box3 {
@@ -141,9 +139,7 @@ h1 {
   left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 1;
-  /* border: 1px solid #00A5EC; */
-  float: left;
+  opacity: 0.7;
   margin-top: 20px;
   border-radius: 15px;
   background-color: #fff;
@@ -161,17 +157,20 @@ h1 {
   width: 25px;
   height: 25px;
 }
-
+.box3:hover {
+  background-color: #ffffff;
+  opacity: 1;
+}
 .box31 {
-  position: absolute;
-  top: 347px;
-  right: 225px;
+  
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 .box32 {
-  position: absolute;
-  top: 380px;
-  right: 212px;
+  
+  margin-top: -42px;
+  margin-left: 25px;
 }
 
 .box4 {
@@ -179,9 +178,7 @@ h1 {
   left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 1;
-  /* border: 1px solid #00A5EC; */
-  float: left;
+  opacity: 0.7;
   margin-left: 100px;
   margin-top: 20px;
   border-radius: 15px;
@@ -200,17 +197,20 @@ h1 {
   width: 25px;
   height: 25px;
 }
-
+.box4:hover {
+  background-color: #ffffff;
+  opacity: 1;
+}
 .box41 {
-  position: absolute;
-  top: 725px;
-  left: 178px;
+  
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 .box42 {
-  position: absolute;
-  top: 760px;
-  left: 178px;
+  
+  margin-top: -42px;
+  margin-left: 25px;
 }
 
 .box5 {
@@ -218,9 +218,7 @@ h1 {
   left: 139px;
   width: 362px;
   height: 360px;
-  opacity: 1;
-  /* border: 1px solid #00A5EC; */
-  float: left;
+  opacity: 0.7;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 20px;
@@ -241,18 +239,19 @@ h1 {
   height: 25px;
   color: #C2C2C2;
 }
-
+.box5:hover {
+  background-color: #ffffff;
+  opacity: 1;
+}
 .box51 {
-
-  position: absolute;
-  top: 725px;
-  left: 540px;
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 .box52 {
-  position: absolute;
-  top: 760px;
-  left: 540px;
+
+  margin-top: -42px;
+  margin-left: 25px;
 }
 
 /* third page css */
@@ -347,9 +346,6 @@ h1 {
   margin: 30px 400px;
 }
 
-.box32 {
-  margin-left: 45px;
-}
 
 /* boxmodel */
 .content {
@@ -386,12 +382,12 @@ h1 {
 
 #btn1 {
   background-color: #00A5EC;
-  width: 28%;
-  padding: 13px;
+  width: 35%;
+  padding: 15px 15px;
   color: #fff;
   border-radius: 5px;
   float: right;
-  margin: 10px 23px;
+  margin: 10px 20px;
   border: none;
   font-size: 15px;
 }

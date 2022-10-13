@@ -14,7 +14,9 @@
   padding: 13px 0 12px 137px;
   
 }
-
+.nav :hover{
+  background-color:rgba(255, 255, 255, 0.911);
+}
 h1 {
   font-weight: bold;
 }
@@ -422,7 +424,7 @@ h1 {
   font-size: 15px;
 }
 
-/* 2nd page css */
+/* 2nd and 4th page css */
 #blur{
   filter: blur(2px);
 

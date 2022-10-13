@@ -275,7 +275,7 @@ h1 {
 .box5:hover {
   background-color: #ffffff;
   opacity: 1;
-  box-shadow: 10px 10px hsl(270, 23%, 95%), -10px -10px hsl(270, 23%, 95%);
+  box-shadow: 10px 10px 10px hsl(270, 23%, 95%), -10px -10px -10px hsl(270, 23%, 95%);
 
 }
 .box51 {
@@ -390,20 +390,7 @@ h1 {
 }
 
 
-/* boxmodel */
-.content {
-  width: 30%;
-  height: 200px;
-  position: absolute;
-  top: 48%;
-  left: 36%;
-  float: left;
-  border-radius: 5px;
-  background-color: #f1e9e9;
-  display:none;
-  z-index: 2;
 
-}
 .content p {
   font-size: 20px;
   margin: 15px 5px;
@@ -433,4 +420,28 @@ h1 {
   margin: 10px 20px;
   border: none;
   font-size: 15px;
+}
+
+/* 2nd page css */
+#blur{
+  filter: blur(2px);
+
+}
+/* boxmodel */
+.content {
+  width: 30%;
+  height: 200px;
+  position: absolute;
+  top: 38%;
+  left: 36%;
+  float: left;
+  border-radius: 5px;
+  background-color: #fff;
+  display:block;
+  z-index: 5;
+  border: 1px solid black;
+  font-family: sans-serif;
+  font-weight: 600;
+
+
 }

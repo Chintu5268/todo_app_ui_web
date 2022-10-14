@@ -12,11 +12,13 @@
   background-color: #fff;
   height: 54px;
   padding: 13px 0 12px 137px;
-  
+
 }
-.nav :hover{
-  background-color:rgba(255, 255, 255, 0.911);
+
+.nav :hover {
+  background-color: rgba(255, 255, 255, 0.911);
 }
+
 h1 {
   font-weight: bold;
 }
@@ -42,12 +44,12 @@ h1 {
   background-color: #f7f7f7;
   margin-right: 25px;
 }
-#myBtn a{
+
+#myBtn a {
   text-decoration: none;
   font-size: 20px;
   margin-left: 10px;
   color: #000;
-
 }
 
 
@@ -59,11 +61,13 @@ h1 {
   padding-left: 10px;
   clear: left;
 }
-.main{
+
+.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
 }
+
 .box1 {
   width: 362px;
   height: 360px;
@@ -73,17 +77,14 @@ h1 {
   border-radius: 15px;
   background-color: #fff;
   box-sizing: border-box;
-  /* border: 1px solid black; */
-
-
 
 }
 
 .box1 a {
-  display:inline-block;
+  display: inline-block;
   text-decoration: none;
   font-size: 25px;
-  margin-top:30px;
+  margin-top: 30px;
   padding-left: 30px;
   padding-top: 20px;
   color: #00A5EC;
@@ -113,10 +114,7 @@ h1 {
 .box12 {
   margin-top: 10px;
   margin-left: 45px;
-  font-weight:600;
-
-
-
+  font-weight: 600;
 }
 
 .box2 {
@@ -133,10 +131,10 @@ h1 {
 }
 
 .box2 a {
-  display:inline-block;
+  display: inline-block;
   text-decoration: none;
   font-size: 25px;
-  margin-top:30px;
+  margin-top: 30px;
   padding-left: 30px;
   padding-top: 20px;
   color: #00A5EC;
@@ -147,14 +145,16 @@ h1 {
   width: 25px;
   height: 25px;
 }
+
 .box2:hover {
   background-color: #ffffff;
   opacity: 1;
   box-shadow: 10px 10px rgb(138, 135, 141);
-  
+
 
 
 }
+
 .box21 {
   margin-top: 30px;
   margin-left: 25px;
@@ -164,10 +164,10 @@ h1 {
 }
 
 .box22 {
-  
+
   margin-top: -42px;
   margin-left: 25px;
-  font-weight:600;
+  font-weight: 600;
 
 }
 
@@ -184,10 +184,10 @@ h1 {
 }
 
 .box3 a {
-  display:inline-block;
+  display: inline-block;
   text-decoration: none;
   font-size: 25px;
-  margin-top:30px;
+  margin-top: 30px;
   padding-left: 30px;
   padding-top: 20px;
   color: #00A5EC;
@@ -198,6 +198,7 @@ h1 {
   width: 25px;
   height: 25px;
 }
+
 .box3:hover {
   background-color: #ffffff;
   opacity: 1;
@@ -205,8 +206,9 @@ h1 {
 
 
 }
+
 .box31 {
-  
+
   margin-top: 30px;
   margin-left: 25px;
   font-weight: lighter;
@@ -214,10 +216,10 @@ h1 {
 }
 
 .box32 {
-  
+
   margin-top: -42px;
   margin-left: 25px;
-  font-weight:600;
+  font-weight: 600;
 
 }
 
@@ -235,10 +237,10 @@ h1 {
 }
 
 .box4 a {
-  display:inline-block;
+  display: inline-block;
   text-decoration: none;
   font-size: 25px;
-  margin-top:30px;
+  margin-top: 30px;
   padding-left: 30px;
   padding-top: 20px;
   color: #00A5EC;
@@ -249,6 +251,7 @@ h1 {
   width: 25px;
   height: 25px;
 }
+
 .box4:hover {
   background-color: #ffffff;
   opacity: 1;
@@ -256,8 +259,9 @@ h1 {
 
 
 }
+
 .box41 {
-  
+
   margin-top: 30px;
   margin-left: 25px;
   font-weight: lighter;
@@ -265,10 +269,10 @@ h1 {
 }
 
 .box42 {
-  
+
   margin-top: -42px;
   margin-left: 25px;
-  font-weight:600;
+  font-weight: 600;
 
 }
 
@@ -287,10 +291,10 @@ h1 {
 }
 
 .box5 a {
-  display:inline-block;
+  display: inline-block;
   text-decoration: none;
   font-size: 25px;
-  margin-top:30px;
+  margin-top: 30px;
   padding-left: 30px;
   padding-top: 20px;
   color: #00A5EC;
@@ -302,6 +306,7 @@ h1 {
   height: 25px;
   color: #C2C2C2;
 }
+
 .box5:hover {
   background-color: #ffffff;
   opacity: 1;
@@ -309,6 +314,7 @@ h1 {
 
 
 }
+
 .box51 {
   margin-top: 30px;
   margin-left: 25px;
@@ -320,7 +326,7 @@ h1 {
 
   margin-top: -42px;
   margin-left: 25px;
-  font-weight:600;
+  font-weight: 600;
 
 }
 
@@ -351,7 +357,8 @@ h1 {
 
 
 }
-.font31 i{
+
+.font31 i {
   margin-right: 10px;
 }
 
@@ -385,7 +392,7 @@ h1 {
 }
 
 .font4 a {
-  display:block;
+  display: block;
   font-family: sans-serif;
   margin-top: 10px;
   font-size: 20px;
@@ -394,9 +401,10 @@ h1 {
   color: #000;
 }
 
-.box61{
-  box-shadow:inset -10px -10px #fff;
+.box61 {
+  box-shadow: inset -10px -10px #fff;
 }
+
 .box61 p {
   font-size: 25px;
   margin: 30px 30px;
@@ -456,10 +464,11 @@ h1 {
 }
 
 /* 2nd and 4th page css */
-#blur{
+#blur {
   filter: blur(2px);
 
 }
+
 /* boxmodel */
 .content {
   width: 30%;
@@ -470,7 +479,7 @@ h1 {
   float: left;
   border-radius: 5px;
   background-color: #fff;
-  display:block;
+  display: block;
   z-index: 5;
   border: 1px solid black;
   font-family: sans-serif;

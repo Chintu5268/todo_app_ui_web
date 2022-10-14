@@ -49,9 +49,7 @@ h1 {
   color: #000;
 
 }
-#myBtn:hover {
-  background-color: #fff;
-}
+
 
 .font p {
   display: inline-block;
@@ -372,7 +370,7 @@ h1 {
 .font4 {
   margin-left: 625px;
   height: 75px;
-  margin-top: 5px;
+  margin-top: 18px;
   margin-bottom: 0px;
 
 

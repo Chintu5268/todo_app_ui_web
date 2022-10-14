@@ -28,7 +28,7 @@ h1 {
 
 }
 
-.font i {
+.font a i {
   font-size: 50px;
   color: rgba(0, 165, 236, 1);
   float: left;
@@ -36,12 +36,19 @@ h1 {
 }
 
 #myBtn {
+  text-decoration: none;
   width: auto;
   border: none;
   background-color: #f7f7f7;
   margin-right: 25px;
 }
+#myBtn a{
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #000;
 
+}
 #myBtn:hover {
   background-color: #fff;
 }
@@ -346,20 +353,19 @@ h1 {
 
 
 }
-
-.font31 i {
-  font-size: 25px;
-  color: #000;
-  float: left;
-  margin-top: 18px;
+.font31 i{
+  margin-right: 10px;
 }
 
-.font31 p {
-  display: inline-block;
+
+.font31 a {
+  display: block;
+  text-decoration: none;
   font-family: sans-serif;
-  /* margin-left: 20px; */
-  font-size: 20px;
-  padding-left: 10px;
+  font-size: 25px;
+  color: #000;
+  margin-top: 18px;
+  margin-left: 10px;
 
 }
 
@@ -376,16 +382,18 @@ h1 {
   font-size: 50px;
   color: rgb(12, 196, 241);
   float: left;
-  margin-top: 10px;
+  margin-right: 10px;
+  margin-top: -10px;
 }
 
-.font4 p {
-  display: inline-block;
+.font4 a {
+  display:block;
   font-family: sans-serif;
-  /* margin-left: 20px; */
+  margin-top: 10px;
   font-size: 20px;
-  padding-left: 10px;
-  clear: left;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #000;
 }
 
 .box61{
@@ -404,9 +412,9 @@ h1 {
 }
 
 .box61:hover {
-  background-color: rgb(238, 220, 220);
+  background-color: #ffffff;
+  opacity: 1;
   box-shadow: 10px 10px rgb(138, 135, 141);
-
 
 }
 

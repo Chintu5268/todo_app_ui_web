@@ -10,7 +10,7 @@
 .nav {
   background-color:#f7f7f7;
   height: 54px;
-  padding: 13px 0 12px 137px;
+  padding: 13px 0 12px 50px;
   font-family: sans-serif;
 
 }
@@ -39,7 +39,7 @@ h1 {
   text-decoration: none;
   width: auto;
   border: none;
-  background-color: #fff;
+  background-color: #ffff;
   margin-right: 25px;
 }
 
